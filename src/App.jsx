@@ -16,10 +16,10 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          
+
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contect" element={<Contect />} />
+          <Route path="/About" element={<About />} />
+          <Route path="/Contect" element={<Contect />} />
 
         </Routes>
       </BrowserRouter>
