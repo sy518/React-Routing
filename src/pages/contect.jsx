@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from 'react-router-dom';
+
 function Contect() {
     const handleClick = () => {
         alert('Button Clicked!');
