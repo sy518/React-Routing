@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img.avif"), no-repeat center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+header {
+  animation: fadeInUp 2s ease-out;
+}
+
+/* Animation keyframes */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media screen and (max-width:780px) {
+  ul {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width:650px) {
+  h1 {
+    font-size: 18px;
+  }
+
+  header {
+    width: 400px;
+  }
+
+  #btn {
+    width: 70px;
+    font-size: 10px;
+  }
+
+}
+
+@media screen and (max-width:450px) {
+  h1 {
+    font-size: 12px;
+  }
+
+  header {
+    width: 290px;
+  }
+    #btn {
+      width: 50px;
+      font-size: 5px;
+    }
+}
