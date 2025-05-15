@@ -13,7 +13,7 @@ function Home() {
             <div className="">
                 <nav className="justify-between flex" >
 
-                    <h1 className="text-2xl  text-whit uppercase p-2 ">Whispering Woods</h1>
+                    <h1 className="text-2xl  text-white uppercase p-2 ">Whispering Woods</h1>
                     <ul className="flex gap-4 p-2 text-white text-lg uppercase" >
                         <li>
                             <Link to="/">Home</Link>
