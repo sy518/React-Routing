@@ -17,10 +17,10 @@ function Contect() {
                             <Link to="/">Home</Link>
                         </li>
                         <li>
-                            <Link to="/about">about</Link>
+                            <Link to="/About">about</Link>
                         </li>
                         <li>
-                            <Link to="/contect">contect</Link>
+                            <Link to="/Contect">contect</Link>
                         </li>
                     </ul>
 

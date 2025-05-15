@@ -2,9 +2,11 @@ import React from "react";
 import { Link } from 'react-router-dom';
 
 function About() {
+    
     const handleClick = () => {
         alert('Button Clicked!');
     }
+
     return (
 
         <>
@@ -17,10 +19,10 @@ function About() {
                             <Link to="/">Home</Link>
                         </li>
                         <li>
-                            <Link to="/about">about</Link>
+                            <Link to="/About">about</Link>
                         </li>
                         <li>
-                            <Link to="/contect">contect</Link>
+                            <Link to="/Contect">contect</Link>
                         </li>
                     </ul>
 
@@ -48,7 +50,7 @@ function About() {
                                 className="w-[150px] bg-black text-white p-1 uppercase rounded-xl hover:skew-6"
 
                             >
-                                <a href="/contect">
+                                <a href="/Contect">
 
                                     Contect us
                                 </a>

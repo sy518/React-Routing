@@ -19,10 +19,10 @@ function Home() {
                             <Link to="/">Home</Link>
                         </li>
                         <li>
-                            <Link to="/about">about</Link>
+                            <Link to="/About">about</Link>
                         </li>
                         <li>
-                            <Link to="/contect">contect</Link>
+                            <Link to="/Contect">contect</Link>
                         </li>
                     </ul>
 
@@ -50,7 +50,7 @@ function Home() {
                                 className="w-[150px] bg-black text-white p-1 uppercase rounded-xl hover:skew-6"
 
                             >
-                                <a href="/about">
+                                <a href="/About">
 
                                     about us
                                 </a>
