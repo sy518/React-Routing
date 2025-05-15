@@ -50,10 +50,7 @@ function Home() {
                                 className="w-[150px] bg-black text-white p-1 uppercase rounded-xl hover:skew-6"
 
                             >
-                                <a href="/About">
-
-                                    about us
-                                </a>
+                                 <Link to="/About">about</Link>
                             </button>
                         </div>
                     </div>
