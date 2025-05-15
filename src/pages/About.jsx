@@ -50,7 +50,7 @@ function About() {
                                 className="w-[150px] bg-black text-white p-1 uppercase rounded-xl hover:skew-6"
 
                             >
-                              <Link to="/About">about</Link>
+                              <Link to="/Contect">contect</Link>
                             </button>
                         </div>
                     </div>
